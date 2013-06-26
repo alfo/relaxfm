@@ -45,6 +45,10 @@ p {
 	display: inline-block;
 }
 
+.row img {
+	width: 100%;
+}
+
 @media (max-width: 979px) {
 	body {
 		padding-top: 0;
