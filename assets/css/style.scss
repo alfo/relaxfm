@@ -1,11 +1,54 @@
 /* Write your CSS! */
 
+$mid: #6FA6CE;
+$high: #3EAFED;
+$low: #7AA7C1; 
+
 html {
   height: 100%;
 }
 
 body {
- margin-top: 40px;
+ padding-top: 40px;
+}
+
+.navbar-inverse .navbar-inner {
+	background: $high;
+}
+
+.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+	color: white;
+	text-shadow: none;
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+	background: $mid;
+}
+
+.jumbotron {
+	height: auto;
+	text-align: center;
+	
+	img {
+		margin: 0px auto;
+	}
+}
+
+p {
+	font-size: 150%;
+}
+
+
+@media (max-width: 979px) {
+	body {
+		padding-top: 0;
+	}
+	.navbar-fixed-top {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 767px) {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
