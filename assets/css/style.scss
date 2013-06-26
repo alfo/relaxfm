@@ -28,6 +28,7 @@ body {
 .jumbotron {
 	height: auto;
 	text-align: center;
+	margin-top: 20px;
 	
 	img {
 		margin: 0px auto;
@@ -38,6 +39,11 @@ p {
 	font-size: 150%;
 }
 
+.social {
+	width: 49%;
+	text-align: right;
+	display: inline-block;
+}
 
 @media (max-width: 979px) {
 	body {
